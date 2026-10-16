@@ -1,0 +1,29 @@
+# ---- data: never commit participant-level data ----
+data/
+*.edf
+*.csv
+*.xlsx
+*.tsv
+!tests/**/*.csv
+
+# ---- generated output ----
+results/
+results_*/
+*.rds
+*.png
+*.pdf
+*.html
+
+# ---- R ----
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

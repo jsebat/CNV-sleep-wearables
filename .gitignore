@@ -1,0 +1,23 @@
+# never commit participant-level data, results or reports
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.avro
+*.edf
+*.rds
+*.png
+*.pdf
+*.html
+*.pptx
+data/
+results/
+output/
+!headband_sleep_architecture/tests/**/*.csv
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db
+desktop.ini
